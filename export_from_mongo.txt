@@ -1,0 +1,27 @@
+
+===
+localhost
+15:27 25/4/2559
+
+mongoexport --db ionicbookstoreapp --collection books --out books.json
+
+mongoexport --db ionicbookstoreapp --collection users --out users.json
+
+
+
+===
+mLab
+15:27 25/4/2559
+
+JSON
+Import collection
+=====
+mongoimport -h ds019481.mlab.com:19481 -d ionicbookstoreapp -c books -u admin -p admin123 --file books.json
+
+mongoimport -h ds019481.mlab.com:19481 -d ionicbookstoreapp -c users -u admin -p admin123 --file users.json
+
+
+
+Export collection
+=====
+mongoexport -h ds019481.mlab.com:19481 -d ionicbookstoreapp -c users -u <user> -p <password> -o users.json

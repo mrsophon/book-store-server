@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5618a7a31f815c5c0cf83abe"},"cart":[],"email":"test@test.com","name":"test","password":"$2a$10$8wqhh/MS1wdJOGIDsRM6B.5jXl09RN.7gUz5OmhBVEZX2tNZOjUaK","purchases":[{"Purchase made on 10-October-2015 at 13:43":[{"id":"5618a6faf59ab7d41e8dab1a","qty":1},{"id":"5618a6faf59ab7d41e8dab1c","qty":1}]}]}
+{"_id":{"$oid":"57187c9c3fdf97b021800ea7"},"email":"a@a.com","name":"a","password":"$2a$10$n23Weqf5hDX90KaT3wCxmeGyZtxZTb.w.pEy0JQBvtRI5pQx1dfDW"}
