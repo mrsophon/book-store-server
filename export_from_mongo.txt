@@ -9,6 +9,26 @@ mongoexport --db ionicbookstoreapp --collection users --out users.json
 
 
 
+Export JSON File:
+===
+mongoexport --db <database-name> --collection <collection-name> --out filename.json
+
+Import JSON File:
+===
+mongoimport --db <database-name> --collection <collection-name> --file filename.json
+
+
+
+For lazy people like me, i used mongodump it's faster:
+===
+mongodump -d <our database name> -o <directory_backup>
+
+And to "restore/import" that, i used (from directory_backup/dump/):
+===
+mongorestore <our database name>
+
+
+
 ===
 mLab
 15:27 25/4/2559
