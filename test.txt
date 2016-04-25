@@ -1,0 +1,13 @@
+https://ionic-book-store.herokuapp.com/api/v1/books/1/100
+
+localhost:3000/api/v1/books/1/100
+
+localhost:3000/api/v1/usrs/1/10
+
+http://localhost:3000/api/v1/users/5617b1bd029dac880f1567d5/cart
+
+http://localhost:3000/api/v1/users/5617b1bd029dac880f1567d5/purchases
+
+localhost:3000/api/v1/booksearchtitle/qui/1/10
+
+
